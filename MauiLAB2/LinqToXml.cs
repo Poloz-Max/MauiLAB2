@@ -15,6 +15,11 @@ namespace MauiLAB2
             doc = XDocument.Load(xmlFilePath);
         }
 
+        public List<Scientist> SearchScientistXmlFile(string enteredphrase, string selectElement, string selectId)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Scientist> SearchStudentInXmlFile(string enteredphrase, string selectElement, string selectId)
         {
             var query = from d in doc.Descendants("scientist")

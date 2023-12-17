@@ -42,5 +42,10 @@ namespace MauiLAB2
 
             return scientists;
         }
+
+        public List<Scientist> SearchScientistXmlFile(string enteredphrase, string selectElement, string selectId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
